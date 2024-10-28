@@ -19,7 +19,7 @@ class CategoryModel {
     );
 
     categories.add(
-      CategoryModel(name: 'Cake', iconPath: 'assets/icons/pancake.svg', boxColor: Color(0xffC58BF2))
+      CategoryModel(name: 'Cake', iconPath: 'assets/icons/pancakes.svg', boxColor: Color(0xffC58BF2))
     );
 
     categories.add(
