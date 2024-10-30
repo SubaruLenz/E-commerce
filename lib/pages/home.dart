@@ -85,7 +85,7 @@ class _HomePageState extends State<HomePage> {
                               child: Text(
                                 "View",
                                 style: TextStyle(
-                                  color: Colors.white,
+                                  color: diets[index].viewIsSelected ? Colors.white : Color(0xffC5BBF2),
                                   fontWeight: FontWeight.w600,
                                   fontSize: 14,
                                 ),
@@ -94,8 +94,8 @@ class _HomePageState extends State<HomePage> {
                             decoration: BoxDecoration(
                               gradient: LinearGradient(
                                 colors: [
-                                  Color(0xff90CEFF),
-                                  Color(0xff92A3FD)
+                                  diets[index].viewIsSelected ? Color(0xff90CEFF) : Colors.transparent,
+                                  diets[index].viewIsSelected ? Color(0xff92A3FD) : Colors.transparent,
                                 ]
                               ),
                               borderRadius: BorderRadius.circular(50)
