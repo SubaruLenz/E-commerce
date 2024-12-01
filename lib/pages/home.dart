@@ -102,7 +102,7 @@ class _HomePageState extends State<HomePage> {
                             ),
                           ),
                           Text(
-                            popular[index].level + " | " + popular[index].duration + " | " + popular[index].calorie,
+                            "${popular[index].level} | ${popular[index].duration} | ${popular[index].calorie}",
                             style: const TextStyle(
                               fontWeight: FontWeight.w400,
                               color: Color(0xff7B6F72),
@@ -383,3 +383,4 @@ class _HomePageState extends State<HomePage> {
     );
   }
 }
+
